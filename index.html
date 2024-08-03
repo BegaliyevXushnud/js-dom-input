@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./styrl.css">
+</head>
+<body>
+
+<div class="conatiner">
+<div class="first">
+    <h1>Task 1</h1>
+   <div class="form">
+       <input type="number" placeholder=" Width" id="width" class="form-control my-2">
+       <input type="number" placeholder="Height" id="height" class="form-control my-2">
+       <input type="number" placeholder="BorderRadius" id="border_radius" class="form-control my-2">
+       <input type="text" placeholder="BackgroundColor" id="bg_color" class="form-control my-2">
+
+   </div>
+    <button type="submit" id="save">Save</button>
+    <div id="result"></div>
+</div>
+    <div class="second">
+        <h1>Task 2</h1>
+        <textarea id="textarea" onkeyup="check()">
+        </textarea>
+            <h1 id="text"></h1>
+    </div>
+
+    <div class="three">
+        <textarea id="textArea1" rows="10" cols="50" > </textarea>
+        <br>
+        <input type="text" id="inputText" placeholder="So'zni kiriting">
+        <div id="result1"></div>
+    </div>
+    <div class="four">
+<input type="file" id="file">
+        <div id="filesize"></div>
+    </div>
+    <div class="five">
+        <input type="text" id="qavs" placeholder="Qavs kiriting">
+        <div id="res"></div>
+    </div>
+</div>
+<script src="./app.js"></script>
+</body>
+</html>

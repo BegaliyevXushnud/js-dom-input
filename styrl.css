@@ -1,0 +1,91 @@
+
+
+body{
+    background-color: azure;
+}
+.conatiner{
+    width: 600px;
+    height: auto;
+padding: 20px;
+display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: auto;
+    margin-top: 3cm;
+    padding: 10px;
+    background-color: white;
+    gap: 20px;
+}
+.first{
+    width: 100%;
+  height: auto;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: azure;
+}
+.form{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+.form input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid ;
+}
+#save{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.second{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: azure;
+}
+.second textarea{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+.three{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: azure;
+}
+.four{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: azure;
+    padding: 10px;
+}
+.five{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: azure;
+    padding: 10px;
+}
+
